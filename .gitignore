@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# MAStra build output (do not commit build artifacts)
+.mastra/
+
+# Build and distribution
+dist/
+output.txt
+
+# Environment
+.env
+.env.development
+
+# Databases
+*.db
+*.db-*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
